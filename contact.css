@@ -1,0 +1,49 @@
+/* Contact page styles */
+
+main {
+  max-width: 720px;
+}
+
+form#contact-form {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 1rem;
+  display: grid;
+  gap: 0.75rem;
+}
+
+label {
+  font-weight: 600;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 0.6rem 0.75rem;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: rgba(255, 255, 255, 0.06);
+  color: #f5f5f5;
+}
+
+textarea {
+  min-height: 140px;
+}
+
+input[type="submit"] {
+  background: #8bc6ff;
+  color: #0f0f0f;
+  border: none;
+  border-radius: 8px;
+  padding: 0.6rem 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  justify-self: start;
+}
+
+input[type="submit"]:hover {
+  filter: brightness(1.05);
+}
+

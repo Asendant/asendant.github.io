@@ -1,0 +1,50 @@
+/* Resume page styles */
+
+main {
+  max-width: 900px;
+}
+
+.resume {
+  display: grid;
+  gap: 1rem;
+}
+
+.section-title {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.35rem;
+}
+
+.entry,
+.course-list {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 1rem;
+}
+
+.entry-title {
+  margin: 0 0 0.25rem 0;
+}
+
+.entry-info {
+  margin: 0;
+  color: #d8d8d8;
+}
+
+.entry-description {
+  margin: 0.5rem 0 0 0;
+}
+
+a[download] {
+  display: inline-block;
+  margin-bottom: 1rem;
+  background: #8bc6ff;
+  color: #0f0f0f;
+  border-radius: 8px;
+  padding: 0.5rem 0.75rem;
+  font-weight: 600;
+}
+
+ul {
+    list-style-type: none;
+}

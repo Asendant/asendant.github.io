@@ -1,0 +1,27 @@
+/* Blog specific styles */
+
+main {
+  max-width: 800px;
+}
+
+.post-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.post-card {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 1rem;
+}
+
+.post-card h2 {
+  margin: 0 0 0.5rem 0;
+}
+
+.post-card p {
+  margin: 0.25rem 0 0 0;
+  color: #d8d8d8;
+}
+
